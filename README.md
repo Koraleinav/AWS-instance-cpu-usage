@@ -13,7 +13,9 @@ The goal of this exercise is to extract performance information for an AWS insta
 *to run this project:*
 
 python -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 
