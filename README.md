@@ -12,17 +12,19 @@ The goal of this exercise is to extract performance information for an AWS insta
 
 ## *to run this project:*
 
-python -m venv venv
+    python -m venv venv
 
-source venv/bin/activate
+    source venv/bin/activate
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
+    
+    python .\backend\app.py
 
- if doesn't work installing the requirments, use this instead: 
+
+if doesn't work installing the requirments, use this instead: 
 
     python -m pip install -r requirements.txt
 
-python .\backend\app.py
 
 
 !! BE SURE to fill the .env.example file to your credentials and change the file name from .env.example to .env !!
